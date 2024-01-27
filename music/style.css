@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color:rgb(9, 9, 118);
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgb(55, 7, 7);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    padding:5px
+}
+nav ul{
+    display:flex;
+    gap: 40px;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+nav ul li:hover{
+    border-bottom: 2px solid rgb(165, 165, 146);
+    transition: 0.3s ease-in-out;
+}
+.hero-section{
+    background-image: url(https://img.jagrantv.com/webstories/ws4121/1684260139-music-streaming-apps.jpg);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+.hero-section .container{
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+}
+.hero-section h1{
+    font-size: 80px;
+}
+.hero-section h3{
+    font-size: 32px;
+    padding: 30px;
+}
+.hero-section h5{
+    gap: 50px;
+    font-size :15px;
+}
+.music-section{
+    padding-top: 50px;
+    background: rgb(9, 132, 208);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.music-section.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    color: rgb(40, 125, 201);
+}
+.ipad-iphone-img{
+    margin-top: -250px;
+    position:relative;
+    top: 400px;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    gap:20px;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.6;
+}
+.primary-btn{
+    background-color: rgb(206, 0, 0);
+    color: white;
+}
+.secondary-btn{
+    background-color: rgb(61, 3, 114);
+    color: aliceblue;
+}
+.about-music{
+    padding: 500px;
+    display:grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.video-section{
+    background-image: url(https://images.inc.com/uploaded_files/image/1920x1080/getty_648521078_2000136020009280129_393608.jpg);
+    min-height:900px;
+    display: grid;
+    place-items: center;
+    color: black;
+    text-align: center;
+}
+.video-section .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -300px;
+}
+.hero-section,.video-section{
+    position:relative;
+    background-repeat:repeat;
+    background-size:cover;
+    background-position:center;
+} 
+.gift-section{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0;
+    gap: 150px;
+    
+}
+.gift-card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    
+}
